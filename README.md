@@ -1,39 +1,17 @@
-<!-- 
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# DynamicSearcha
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages). 
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages). 
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+`DynamicSearcha` is a Dart package that provides implementations of various search algorithms, including Linear Search, Binary Search, and Jump Search. It includes performance measurements for each search operation.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- **Linear Search**: Finds the target element by checking each element sequentially.
+- **Binary Search**: Efficiently searches for the target element in a sorted list by repeatedly dividing the search interval in half.
+- **Jump Search**: Searches for the target element by jumping ahead by fixed steps and performing a linear search in the identified block.
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+To get started with `DynamicSearcha`, add the following dependency to your `pubspec.yaml` file:
 
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
-
-```dart
-const like = 'sample';
-```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+```yaml
+dependencies:
+  dynamic_searcha: ^1.0.0

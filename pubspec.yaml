@@ -1,7 +1,7 @@
 name: search_algorithmcha
 description: A starting point for Dart libraries or applications.
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+repository: https://github.com/shokhtime/search_algorithmcha
 
 environment:
   sdk: ^3.4.3
